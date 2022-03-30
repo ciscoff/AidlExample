@@ -27,3 +27,5 @@
 ./BotServer/captures
 ./BotServer/.externalNativeBuild
 ./BotServer/.cxx
+
+.DS_Store
