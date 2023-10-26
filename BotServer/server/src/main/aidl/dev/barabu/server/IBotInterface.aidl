@@ -74,6 +74,8 @@ interface IBotInterface {
      * NOTE: Важно чтобы в PACKAGE_NAME было прописано applicationId приложения, а не имя пакета
      * сервиса внутри этого приложения. То есть нам нужно указывать 'dev.barabu.botserver',
      * а не 'dev.barabu.server'. А вот имя класса должно быть фактическим.
+     *
+     * NOTE: Это понадобится на стороне клиента для создания интента привязки к сервису.
      */
     const String PACKAGE_NAME = "dev.barabu.botserver";
     const String SERVICE_CLASS_NAME = "dev.barabu.server.BotService";

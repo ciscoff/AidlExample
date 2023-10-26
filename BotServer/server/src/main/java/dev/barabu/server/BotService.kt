@@ -8,7 +8,6 @@ import android.os.RemoteCallbackList
 import android.util.Log
 import dev.barabu.server.data.IOnPersonListener
 import dev.barabu.server.data.Person
-import java.util.concurrent.CopyOnWriteArrayList
 import kotlin.random.Random
 
 // И Proxy и Stub имплементят IMyAidlInterface, но делают это по разному. Proxy конвертирует
@@ -51,7 +50,7 @@ import kotlin.random.Random
  * https://www.androiddesignpatterns.com/2013/07/binders-window-tokens.html
  * https://stackoverflow.com/a/33292184
  *
- * Вот тут пример того как реализовать два биндера в однм сервисе
+ * Вот тут пример того как реализовать два биндера в одном сервисе
  * https://android.googlesource.com/platform/development/+/master/samples/ApiDemos/src/com/example/android/apis/app/RemoteService.java
  */
 class BotService : Service() {
